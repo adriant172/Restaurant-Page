@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "This is a project meant to practive dynamically rendering content using javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriant172/Restaurant-Page.git"
+  },
+  "author": "Matthew Thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adriant172/Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/adriant172/Restaurant-Page#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
