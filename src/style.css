@@ -1,29 +1,36 @@
+@font-face {
+    font-family: 'Kalam';
+    src: url('./fonts/Kalam-Light.ttf') format(truetype), url('./fonts/Kalam-Regular.ttf') format(truetype),
+    url('./fonts/Kalam-Bold.ttf') format(truetype);
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --default-background-color: rgb(254, 253, 251);
+}
+
 html {
+    background-image: url("/src/img/wooden-board-empty-table-top-blurred-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 100%;
+    font-family: 'Kalam';
+    
 }
 body{
-    background-image: url("/src/wooden-board-empty-table-top-blurred-background.jpg");
-    background-size: 100vw;
-    background-repeat: no-repeat;
-
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
     justify-content: center;
-    
-    width: 60%;
-    
-    
-    ;
-    
 }
 
 header {
     height: 15vh;
-    
     display: flex;
     justify-content: center;
     width: 60vw;
@@ -38,14 +45,15 @@ footer {
 
 #content {
     display: flex;
-    height: 70vh;
+    min-height: 100vh;
+    max-width: 80vw;
     flex-direction: column;
     align-items:center;
     gap: 3rem;
     border: 2px solid black;
     border-radius: 10px;
     padding: 2rem;
-    background-color: rgb(254, 253, 251)
+    background-color: var(--default-background-color)
 }
 
 .restaurant-name {
@@ -58,16 +66,29 @@ footer {
     height: 100;
 }
 .inner {
-    
     border: 2px black solid;
     border-radius: 15px;
     padding: 3rem;
     width: 80%;
+ 
 }
 .restaurant-name {
-    background-image:url("/src/1200px-Flag_of_Trinidad_and_Tobago.svg.png");
+    background-image:url("/src/img/1200px-Flag_of_Trinidad_and_Tobago.svg.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: black;
     color:#392F5A;
+}
+ul {
+    display: flex;
+    flex-direction: column ;
+    list-style: none;
+    padding-left: 0;
+    
+}
+.hours, .location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
