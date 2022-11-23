@@ -1,39 +1,61 @@
-header {
-    height: 15vh;
-    
+html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 body{
     background-image: url("/src/wooden-board-empty-table-top-blurred-background.jpg");
-    background-size: 100% 100%;
+    background-size: 100vw;
     background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+    
+    width: 60%;
+    
+    
+    ;
     
 }
+
+header {
+    height: 15vh;
+    
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+    height: 15vh;
+    
+}
+footer {
+    
+    display: flex;
+    justify-content: center;
+}
+
 #content {
     display: flex;
+    height: 70vh;
     flex-direction: column;
-    align-items: center;
-}
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    align-items:center;
     gap: 3rem;
-    justify-content: center;
-    padding: 2rem;
     border: 2px solid black;
     border-radius: 10px;
-    width: 60%;
-    background-color: rgb(254, 253, 251);
-    
+    padding: 2rem;
+    background-color: rgb(254, 253, 251)
 }
+
 .restaurant-name {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 .title-image {
-    width: 200px;
-    height: 100px;
+    width: 60%;
+    height: 100;
 }
 .inner {
     
