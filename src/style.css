@@ -33,9 +33,19 @@ header {
     height: 15vh;
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 2rem;
     width: 60vw;
     height: 15vh;
     
+}
+.header-button {
+    height: 2rem;
+    width: 6rem;
+    border: 2px black solid;
+    border-radius: 15px;
+    background-color: black;
+    color: crimson;
 }
 footer {
     
@@ -60,6 +70,10 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+.restaurant-name > * {
+    margin: 0
 }
 .title-image {
     width: 60%;
@@ -68,7 +82,7 @@ footer {
 .inner {
     border: 2px black solid;
     border-radius: 15px;
-    padding: 3rem;
+    padding: 2rem;
     width: 80%;
  
 }
