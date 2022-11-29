@@ -18,6 +18,7 @@ function menuPage() {
     const menuTitle = document.createElement('h1');
     menuTitle.innerHTML = "Menu";
     menuTitle.classList.add('inner');
+    menuTitle.classList.add('page-title');
     content.appendChild(menuTitle)
     
     const menuItems = [];
@@ -27,10 +28,13 @@ function menuPage() {
 
     menuItems.forEach( item => {
         let currentItem = document.createElement('div');
+        currentItem.classList.add('inner');
+
         let itemName = document.createElement('h2');
         let itemDescription = document.createElement('p');
         let itemPrice = document.createElement('p');
         let itemImage = document.createElement('img');
+        itemImage.classList.add('item-image');
 
         itemName.innerHTML = item.name;
         itemDescription.innerHTML = item.description;

@@ -38,6 +38,7 @@ function homePage() {
     // Create title elements
     restaurantName.classList.add('restaurant-name');
     restaurantName.classList.add('inner');
+    restaurantName.classList.add('page-title');
     const title1 = document.createElement('h1');
     const title2 = document.createElement('h1');
     const title3 = document.createElement('h1');
