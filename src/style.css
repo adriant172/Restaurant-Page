@@ -25,7 +25,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
     justify-content: center;
 }
 
@@ -40,10 +39,11 @@ header {
     
 }
 .header-button {
-    height: 2rem;
+    height: 3rem;
     width: 6rem;
     border: 2px black solid;
-    border-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     background-color: black;
     color: #296cdf;
 }
@@ -64,7 +64,8 @@ footer {
     border: 2px solid black;
     border-radius: 10px;
     padding: 2rem;
-    background-color: var(--default-background-color)
+    background-color: var(--default-background-color);
+    
 }
 
 .page-title {
